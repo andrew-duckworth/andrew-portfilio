@@ -43,10 +43,33 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-        sapiente repellat tempora ad numquam voluptate. Ab fugit nulla nihil
-        laudantium blanditiis vel consectetur doloremque necessitatibus
-        voluptatibus fuga ratione, ipsam esse.
+        <a
+          href="https://drive.google.com/file/d/1ZiHfZArS2Fn-7oFprQ3PDgzTQlrHLVYp/view?usp=sharing"
+          className={styles.heroSubText}
+        >
+          Download my CV
+        </a>
+        <br />
+        <a
+          href="https://www.linkedin.com/in/andrewduckworth96/"
+          className={styles.heroSubText}
+        >
+          My LinkedIn
+        </a>
+        <br />
+        Hey there! I'm a junior full stack web developer who just completed a
+        coding bootcamp and is excited to dive into the tech industry. When it
+        comes to web development, I enjoy both front-end and back-end work, and
+        I love using my skills to make websites and apps that are both
+        functional and visually appealing. One thing that sets me apart is my
+        ability to work well with diverse teams. I'm always open to hearing
+        different perspectives and ideas, and I believe that teamwork is
+        essential for success in any industry. When I'm not coding, you can
+        usually find me watching football or practicing kickboxing. I've found
+        that these hobbies help me stay focused and motivated, and they also
+        provide a fun way to blow off some steam after a long day of coding. If
+        you're interested in working together or just want to chat about all
+        things tech, feel free to connect with me!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
