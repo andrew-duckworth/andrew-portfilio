@@ -3,72 +3,42 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 2599,
+      "count": 2214,
       "max": [
-        1.0,
-        1.0,
-        0.9980270266532898
+        19.90735626220703,
+        19.90735626220703,
+        20.079885482788086
       ],
       "min": [
-        -1.0000005960464478,
-        -1.0,
-        -0.9980275630950928
+        0.0,
+        0.0,
+        0.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 31188,
+      "byteOffset": 26568,
       "componentType": 5126,
-      "count": 2599,
+      "count": 2214,
       "max": [
         1.0,
         1.0,
-        0.9980268478393555
+        1.0
       ],
       "min": [
         -1.0,
         -1.0,
-        -0.9980267882347107
+        -1.0
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 2599,
+      "count": 2214,
       "max": [
-        0.9999995827674866,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.0
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 20792,
-      "componentType": 5126,
-      "count": 2599,
-      "max": [
-        0.9999995827674866,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.0
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 41584,
-      "componentType": 5126,
-      "count": 2599,
-      "max": [
-        0.9999995827674866,
+        0.9991000294685364,
         1.0
       ],
       "min": [
@@ -80,16 +50,16 @@
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 14700,
+      "count": 11904,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "rondinellimorais (https://sketchfab.com/rondinellimorais)",
+      "author": "Strosx (https://sketchfab.com/strosx)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/jabulani-7ae489b78e114ac290ffbd989729f4a4",
-      "title": "Jabulani"
+      "source": "https://sketchfab.com/3d-models/earth-3d-model-7ee4815a381749a2a6c2db6696d73eb2",
+      "title": "Earth 3D model"
     },
     "generator": "Sketchfab-12.68.0",
     "version": "2.0"
@@ -97,22 +67,22 @@
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 58800,
+      "byteLength": 47616,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 62376,
-      "byteOffset": 58800,
+      "byteLength": 17712,
+      "byteOffset": 47616,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 62376,
-      "byteOffset": 121176,
+      "byteLength": 53136,
+      "byteOffset": 65328,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
@@ -120,19 +90,19 @@
   ],
   "buffers": [
     {
-      "byteLength": 183552,
+      "byteLength": 118464,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/JABULANI_baseColor.png"
+      "uri": "textures/Clouds_baseColor.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "JABULANI",
+      "name": "Clouds",
       "pbrMetallicRoughness": {
         "baseColorTexture": {
           "index": 0
@@ -144,17 +114,15 @@
   ],
   "meshes": [
     {
-      "name": "pSphere1_JABULANI_0",
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
             "NORMAL": 1,
             "POSITION": 0,
-            "TEXCOORD_0": 2,
-            "TEXCOORD_1": 3,
-            "TEXCOORD_2": 4
+            "TEXCOORD_0": 2
           },
-          "indices": 5,
+          "indices": 3,
           "material": 0,
           "mode": 4
         }
@@ -196,53 +164,29 @@
         0.0,
         0.0,
         0.0,
-        0.0,
         1.0,
         0.0,
         0.0,
-        -1.0,
         0.0,
         0.0,
+        1.0,
         0.0,
-        0.0,
-        0.0,
+        -9.953676223754883,
+        -9.953676223754883,
+        -10.039942741394043,
         1.0
       ],
-      "name": "Jabulani.fbx"
+      "name": "Earth.obj.cleaner.gles"
     },
     {
       "children": [
         3
       ],
-      "name": "RootNode"
-    },
-    {
-      "children": [
-        4
-      ],
-      "matrix": [
-        -6.791113328109884,
-        7.136210612484751,
-        -0.6481454054754355,
-        0.0,
-        0.6686515980860175,
-        -0.257979507003962,
-        -9.84637833022648,
-        0.0,
-        -7.134318426644267,
-        -6.817093169074089,
-        -0.30586912073315986,
-        0.0,
-        0.0,
-        11.433774948120117,
-        0.0,
-        1.0
-      ],
-      "name": "pSphere1"
+      "name": "Object_2"
     },
     {
       "mesh": 0,
-      "name": "pSphere1_JABULANI_0"
+      "name": "Object_3"
     }
   ],
   "samplers": [
